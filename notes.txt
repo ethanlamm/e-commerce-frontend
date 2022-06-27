@@ -1,0 +1,30 @@
+1.Vue cli
+#通常做法：在项目根目录打开cmd，输入 vue create app(项目名称)
+选择vue2/vue3
+#我的电脑方法1报错，先用管理员身份打开cmd，切换至项目路径，再按照方法1执行
+
+2.不要设置open，手动点开即可
+
+全程在根目录下运行
+app>npm run serve
+app>npm i .......
+等等
+
+3.分析路由
+key:url
+value:组件
+
+公用组件：header  footer
+路由组件：search   login    register
+
+题外话：单页面vue项目，所有html先放App内
+多页面vue项目，各自区分
+
+前提：npm i vue-router@3
+vue2--vue-router@3--vuex@3
+vue3--vue-router(最新默认4版本)--vuex(最新默认4版本)
+引入静态页面形成组件
+结构html   样式css/less(特别关注是否有公用样式)   资源(图片.....)
+
+
+
